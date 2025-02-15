@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root{
+    --background-color: #293241;
+    --font-color: #E0FBFC;
+    --hover-color: #EE6C4D;
+    --strong-color: #3D5A80;
+    --poppins : 'Poppins', sans-serif;
+    accent-color: #EE6C4D;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 10%;
+    background-color: var(--background-color);
+}
+
+.tittle{
+    font-family: var(--poppins);
+    font-size: 3em;
+    text-align: center;
+    color: var(--font-color);
+}
+.task-section{
+    margin: 2% 35% 5% 35%;
+    
+    @media (max-width: 768px) {
+        margin: 2% 5% 5% 5%;;
+    }
+}
+.task-container{
+    display: flex;
+    justify-content: space-between;
+    border: #000 1px solid;
+    border-radius: 5px;
+    height: 45px;
+    width: 100%;
+    padding: 0.3em;
+    margin-bottom: 0.5rem;
+    gap: 2px;
+}
+
+.task-input{
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 1.2rem;
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+.task-input:focus{
+    color: var(--font-color);
+    background-color: var(--background-color);
+    border: 0 solid red;
+    outline: none;
+   
+}
+
+.task-btn{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--strong-color);
+    color: var(--font-color);
+}
+
+.task-btn:hover{
+    background-color: var(--hover-color);
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: var(--font-color);
+    padding: 7px;
+}
+
+li span{
+    padding-left: 15px;
+    font-family: var(--poppins);
+    font-size: 1.2rem;
+}
+
+li button{
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    color: var(--strong-color);
+}
+
+li button:hover{
+    
+    color: var(--hover-color);
+}
+
+/* Clase que se agrega al completar una tarea */
+.completed {
+    text-decoration: line-through; /* Tachado cuando la tarea está completada */
+    color: var(--strong-color); /* Color más apagado para tareas completadas */
+}
