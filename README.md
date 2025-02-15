@@ -1,13 +1,12 @@
 # Task Tracker
-___
 
 Este proyecto implementa un menú desplegable personalizado utilizando HTML, CSS y JavaScript.
 
 ## Archivos
 
-- `index.html`: Contiene la estructura HTML del menú desplegable.
-- `style.css`: Contiene los estilos CSS para el menú desplegable.
-- `app.js`: Contiene el código JavaScript para la funcionalidad del menú desplegable.
+- `index.html`: Contiene la estructura HTML de el cuadro de tareas.
+- `style.css`: Contiene los estilos CSS para el cuadreo de tareas.
+- `app.js`: Contiene el código JavaScript para la funcionalidad del cuadro de tareas.
 
 ## Créditos
 
