@@ -1,6 +1,5 @@
 # Task Tracker
-
-Este proyecto implementa un menú desplegable personalizado utilizando HTML, CSS y JavaScript.
+En este proyecto puedes crea una lista de tareas, donde puedas tachar aquellas que esten realizadas o eliminarlas utilizando HTML, CSS y JavaScript.
 
 ## Archivos
 
